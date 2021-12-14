@@ -1,3 +1,5 @@
+Note : The current code is training model at each request. There is no model saving as this code is for training purpose only. Savings models would greatly inprove the execution time. Also no code optimisation / execution time has been performed.
+
 ├── LICENSE
 ├── README.md          <- The top-level README for this project.
 ├── config             <- configuration file at format JSON
@@ -7,7 +9,7 @@
 │   └── raw            <- The original data.
 │
 ├── dataloader         <- loading,, cleaning, transforming data
-├── models             <- models (untrainned): code current limitation is you trained model each time / no model saving as this code is for training purpose only)
+├── models             <- models (untrainned)
 ├── notebook           <- working notebook
 ├── test               <- code testing
 ├── utils              <- general data loading 
