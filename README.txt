@@ -1,4 +1,4 @@
-Note : The current code is training model at each request. There is no model saving as this code is for training purpose only. Savings models would greatly inprove the execution time. Also no code optimisation / execution time has been performed.
+Note : this code is for training purpose only, therefore the current code is training model at each request. Savings models would greatly inprove the execution time. Also no code optimisation / execution time has been performed.
 
 ├── LICENSE
 ├── README.md          <- The top-level README for this project.
